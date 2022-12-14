@@ -90,13 +90,13 @@ $.fn._parallax = function(intensity) {
 			||	browser.mobile)					// Mobile devices
 				off();
 
-		// Enable everywhere else.
-			else {
+		// // Enable everywhere else.
+		// 	else {
 
-				breakpoints.on('>large', on);
-				breakpoints.on('<=large', off);
+		// 		breakpoints.on('>large', on);
+		// 		breakpoints.on('<=large', off);
 
-			}
+		// 	}
 
 	});
 
