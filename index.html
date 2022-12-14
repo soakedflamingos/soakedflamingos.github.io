@@ -22,25 +22,74 @@
 				background-color: black;
 				color: white;
 			}
+			.light-mode {
+				background-color: white;
+				color: black;
+			}
 			</style>
 	</head>
 	<body class="is-preload dark-mode">
 		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
-				<!-- Intro -->
-					<div id="intro">
-						<h1>We are the Brandy-Soaked Flamingos</h1>
-							<p><h3>We are a group of enthusiactic ethical hackers.</h3><br />
-							<h3>We love drinks, CTFs, dogs and cats.</h3></p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+		<div id="wrapper" class="fade-in">
+			<!-- Header -->
+			<header id="header">
+				<div class="inner">
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">Brandy-Soaked Flamingo</a>
+					<!-- Logo -->
+						<!-- <a href="index.html" class="logo"> -->
+						<!-- <a href="index.html" class="logo" style="font-size: 100px;">
+							<span><img src="images/drinking_flamingo.jpg" alt="" /></span><span class="title">Brandy-Soaked Flamingos</span>
+						</a> -->
+
+					<!-- Nav -->
+						<nav>
+							<ul>
+								<li><a href="#menu">Menu</a></li>
+							</ul>
+						</nav>
+
+				</div>
+			</header>
+
+			<!-- Menu -->
+			<nav id="menu">
+				<h2>Menu</h2>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<!--<li><a href="generic.html">Upcoming CTF events </a></li>
+					<li><a href="generic.html">Tempus etiam</a></li>
+					<li><a href="generic.html">Consequat dolor</a></li>
+					<li><a href="elements.html">Elements</a></li>-->
+				</ul>
+			</nav>
+		
+			<h3 id="DarkModetext">Dark Mode is OFF</h3>
+			<button onclick="darkMode()">Darkmode</button>
+			<button onclick="lightMode()">LightMode</button>
+			<script>
+				function darkMode() {
+					var element = document.body;
+					var content = document.getElementById("DarkModetext");
+					element.className = "dark-mode";
+					content.innerText = "Dark Mode is ON";
+				}
+				function lightMode() {
+					var element = document.body;
+					var content = document.getElementById("DarkModetext");
+					element.className = "light-mode";
+					content.innerText = "Dark Mode is OFF";
+				}
+			</script>
+
+			<!-- Main -->
+			<div id="main">
+				<div class="inner">
+					<header>
+						<h1>We are the Brandy-Soaked Flamingos</h1>
+						<h3>We are a group of enthusiactic ethical hackers.</h3>
+						<h3>We love drinks, CTFs, dogs and cats.</h3>
 					</header>
+<<<<<<< HEAD
 
 				<!-- Main -->
 					<div id="main">
@@ -196,30 +245,170 @@
 								</ul>
 							</div>
 						</footer>
+=======
+					<section class="tiles">
+						<article>
+							<span class="image">
+								<img src="images/HackerImage.jpg" alt="" />
+							</span>
+							<a href="generic/maoque.html">
+								<h2>MaouQue</h2>
+								<div class="content" >
+									<p>I like WebApp Testing and Reverse Engineering.</p>
+								</div>
+							</a>
+						</article>
+						<article >
+							<span class="image">
+								<img src="images/cat-typing.gif" alt="" />
+							</span>
+							<a href="generic/meowware.html">
+								<h2>ME0WW4R3</h2>
+								<div class="content">
+									<p>I <strong>Loves</strong> Cat</p>	
+								</div>
+							</a>
+						</article>
+						<article >
+							<span class="image">
+								<img src="images/spike.png" alt="" />
+							</span>
+							<a href="generic/jeramy.html">
+								<h2>J3r@my</h2>
+								<div class="content">
+									<p>I <strong>Loves</strong> COD! Pew Pew Pew</p>	
+								</div>
+							</a>
+						</article>
+						<article >
+							<span class="image">
+								<img src="images/aesoe.jpg" alt="" />
+							</span>
+							<a href="generic/aesoe.html">
+								<h2>Aesoe</h2>
+								<div class="content ">
+									<p>I am secret</p>										
+								</div>
+							</a>
+						</article>
+						<article >
+							<span class="image">
+								<img src="images/ninja_turtles.jpg" alt="" />
+							</span>
+							<a href="generic/cdubble.html">
+								<h2>Cdubble</h2>
+								<div class="content">
+									<p>Ninja Turtles!!!!!</p>
+								</div>
+							</a>
+						</article>
+						<article >
+							<span class="image">
+								<img src="images/stugots.jpg" alt="" />
+							</span>
+							<a href="generic/stugots.html">
+								<h2>Stugots</h2>
+								<div class="content">
+									<p>I am a streamer! Please subscribe!</p>
+								</div>
+							</a>
+						</article>
+						<article >
+							<span class="image">
+								<img src="images/warzone.jpeg" alt="" />
+							</span>
+							<a href="generic/sparky.html">
+								<h2>Sparky</h2>
+								<div class="content">
+									<p>I <strong>Loves</strong> COD, too!</p>
+								</div>
+							</a>
+						</article>
+						<article>
+							<span class="image">
+								<img src="images/shade96.jpeg" alt="" />
+							</span>
+							<a href="generic/shade.html">
+								<h2>Shade96</h2>
+								<div class="content">
+									<p>I am a gamer!</p>
+								</div>
+							</a>
+						</article>
+						<article>
+							<span class="image">
+								<img src="images/cony.jpg" alt="" />
+							</span>
+							<a href="generic/contentzero.html">
+								<h2>Contentzer0</h2>
+								<div class="content">
+									<p>My info is secret</p>
+								</div>
+							</a>
+						</article>
+						<article>
+							<span class="image">
+								<img src="images/medicine_man.jpg" alt="" />
+							</span>
+							<a href="generic/medicineman.html">
+								<h2>M3d1c1n3_M4n</h2>
+								<div class="content">
+									<p>I love Brazilian Jujutsu</p>
+								</div>
+							</a>
+						</article>
+						<article class="style3">
+							<span class="image">
+								<img src="images/Anonymous_emblem.png" alt="" />
+							</span>
+							<a href="generic/generic.html">
+								<h2>Unknown</h2>
+								<div class="content">
+									<p><strong>TBA</strong></p>
+								</div>
+							</a>
+						</article>
+						<article class="style3">
+							<span class="image">
+								<img src="images/Anonymous_emblem.png" alt="" />
+							</span>
+							<a href="generic/generic.html">
+								<h2>Unknown</h2>
+								<div class="content">
+									<p><strong>TBA</strong></p>
+								</div>
+							</a>
+						</article>
+					</section>
+				</div>
+>>>>>>> main
 			</div>
 
+			<!-- <section>
+				<h2>Follow</h2>
+				<ul class="icons">
+					<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>									
+					<li><a href="#" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
+				</ul>
+			</section> -->
+			<ul class="copyright">
+				<li>&copy; Untitled. All rights reserved</li>
+				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+			</ul>
+		
+			</footer>
+
+		</div>
+
 		<!-- Scripts -->
-				<script src="assets/js/jquery.min.js"></script>
-				<script src="assets/js/jquery.scrollex.min.js"></script>
-				<script src="assets/js/jquery.scrolly.min.js"></script>
-				<script src="assets/js/browser.min.js"></script>
-				<script src="assets/js/breakpoints.min.js"></script>
-				<script src="assets/js/util.js"></script>
-				<script src="assets/js/main.js"></script>
-				<script>
-					function darkMode() {
-						var element = document.body;
-						var content = document.getElementById("DarkModetext");
-						element.className = "dark-mode";
-						content.innerText = "Dark Mode is ON";
-					}
-					// function lightMode() {
-					// 	var element = document.body;
-					// 	var content = document.getElementById("DarkModetext");
-					// 	element.className = "light-mode";
-					// 	content.innerText = "Dark Mode is OFF";
-					// }
-				</script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 
 	</body>
 </html>
